@@ -187,7 +187,7 @@
   .cta-button {
     width:auto;
     margin-top: 12px;
-    display: inline-block;
+    display: block;
     background-color:darkgrey;
     color: black;
     padding: 10px 20px;
@@ -195,7 +195,7 @@
     text-decoration: none;
     font-weight: bold;
     background: transparent;
-    text-align: center;
+    text-align: center ;
   }
   
   .cta-button:hover {
