@@ -25,17 +25,17 @@
 
 @media (max-width: 768px) {
   .nav, .nav-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .pages ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
   .front {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
   }
@@ -50,23 +50,23 @@
   }
 
   .image {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 150px;
+    max-height: 150px;
   }
 }
 
 @media (max-width: 480px) {
   .name1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .front-content {
-    font-size: 0.9em;
+    font-size: 0.5em;
   }
 
   .image {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100px;
+    max-height: 100px;
   }
 
   .pages ul {
