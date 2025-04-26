@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "type": "pwa-chrome",
+        "request": "launch",
+        "name": "Launch Portfolio",
+        "file": "${workspaceFolder}/${input:htmlFile}",
+        "webRoot": "${workspaceFolder}"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "pickString",
+        "id": "htmlFile",
+        "description": "Select the HTML file to launch",
+        "options": [
+          "about.html",
+          "certificate.html",
+          "contact.html",
+          "CT.html",
+          "reach.html",
+          "skills.html",
+          "work.html"
+        ]
+      }
+    ]
+  }

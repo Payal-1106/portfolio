@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="CT.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="nav-bar">
+            <div class="pages">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html"onclick="showSection('about')">About me</a></li>
+                    <li><a href="skills.html"onclick="showSection('Skills')">Skills</a></li>
+                    <li><a href="certificates.html"onclick="showSection('certificates')">Certificates</a></li>
+                    <li><a href="contact.html"onclick="showSection('contact')">Contact</a></li>
+                    <li><a href="reach.html"onclick="showSection('reach')">Reach me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have a project in mind or just want to say hello, feel free to reach out!</p>
+      
+        <form class="contact-form" action="https://formspree.io/f/mldjqybr" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+</body>
+</html>
