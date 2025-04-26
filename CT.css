@@ -1,9 +1,15 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+@media (max-width: 768px) {
+  /* CSS rules inside here will apply only when screen is smaller than 768px */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .header{
     min-height: 50%;
